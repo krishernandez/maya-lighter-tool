@@ -7,4 +7,9 @@ This is an ongoing assignment for ANGM 3311: Scripting for Animation. In this as
 we are tasked to build upon the same script with new topics we learn every week.
 
 Assignment 1 Grade: 91
+Original start date of Assignment 1: September 25th, 2024
+Original end date of Assignment 1: October 8th, 2024
+
 Assignment 2 Grade: (WORK IN PROGRESS)
+Original start date of Assignment 2: October 29th, 2024
+Original end date of Assignment 2: TBA
