@@ -29,6 +29,7 @@
 # Default Python Imports
 
 import maya.cmds as cmds
+from PySide2.QtWidgets import QVBoxLayout, QLabel, QPushButton, QLineEdit, QColorDialog
 
 # Imports That You Wrote
 
@@ -154,3 +155,20 @@ def update_light_cone_angle(light_name, cone_angle):
 
 #----------------------------------------------------------------------------------------#
 #----------------------------------------------------------------------------- CLASSES --#
+class SpotLightLayout(QVBoxLayout):
+     """
+     This is the class layout for controlling a spotlight's color, intensity
+     and cone angle.
+     """
+     def __int__(self, light_name="spotLightShape1"):
+         """
+         Makes the layout for spotlight attributes.
+
+         :param: Name of the spotlight shape node.
+         :type: str
+         """
+         super().__int__()
+         self.light_name = light_name
+         self.color_widget = QLabel()
+         self.intensity_input = QLineEdit()
+         self.cone_angle_input = QLineEdit()
