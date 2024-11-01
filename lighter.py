@@ -172,3 +172,9 @@ class SpotLightLayout(QVBoxLayout):
          self.color_widget = QLabel()
          self.intensity_input = QLineEdit()
          self.cone_angle_input = QLineEdit()
+
+     def build_layout(self):
+         """
+         Builds the main layout of the spotlight controls 
+         """
+    
